@@ -1,0 +1,14 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 75px;
+  background: cyan;
+  height: 75px;
+  border-radius: 10%;
+  line-height: 75px;
+  font-size: 25px;
+}

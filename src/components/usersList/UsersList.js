@@ -4,7 +4,7 @@ import React from 'react';
 function UsersList (props){
   return (
       <div>
-          <h2>Users table</h2>
+          <p>Users table</p>
           <table border='1'>
               <thead>
                   <tr>

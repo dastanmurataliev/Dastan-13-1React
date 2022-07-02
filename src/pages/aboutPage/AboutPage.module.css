@@ -1,0 +1,10 @@
+.aboutUs {
+  display: flexbox;
+  margin: 0 auto;
+  width: 400px;
+  height: 20vh;
+  color: blue;
+  font-size: 14px;
+}
+
+
