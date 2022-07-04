@@ -25,6 +25,9 @@ function Header(props) {
         <li>
           <NavLink to="/portfolio" className={classes.link}>Портфолио</NavLink>
         </li>
+        <li>
+          <NavLink to="/blog" className={classes.link}>Блог</NavLink>
+        </li>
       </ul>
     </div>
   );

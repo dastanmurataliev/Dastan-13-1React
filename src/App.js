@@ -5,6 +5,7 @@ import MainPage from './pages/mainPage/MainPage';
 import PortfolioPage from './pages/portfolioPage/PortfolioPage';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import BlogPage from './pages/blogPage/BlogPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route index element={<MainPage/>}/>
       <Route path='/about' element={<AboutPage/>}/>
       <Route path='/portfolio' element={<PortfolioPage/>}/>
+      <Route path='/blog' element={<BlogPage/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
